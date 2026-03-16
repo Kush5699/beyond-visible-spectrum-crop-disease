@@ -17,7 +17,7 @@ See [methodology.md](methodology.md) for the full write-up.
 |------|-------------|
 | `final_notebook.py` | Complete Kaggle notebook (single-file) |
 | `methodology.md` | Detailed solution write-up |
-| `best_fold0.pth` – `best_fold4.pth` | Trained model weights (5-fold) |
+| `weights/*.pth` | Trained model weights (5-fold) |
 | `confusion_matrix.png` | CV confusion matrix |
 | `submission.csv` | Final submission predictions |
 

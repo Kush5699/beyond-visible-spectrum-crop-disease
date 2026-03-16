@@ -126,4 +126,4 @@ All source code, model weights, and this methodology document are available at:
 
 - `final_notebook.py` — Complete Kaggle notebook (single-file)
 - `methodology.md` — This write-up
-- `best_fold0.pth` through `best_fold4.pth` — Trained model weights (~55 MB each)
+- `weights/*.pth` — Trained model weights (5-fold, ~55 MB each)
