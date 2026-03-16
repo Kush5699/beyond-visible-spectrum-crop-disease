@@ -122,7 +122,7 @@ The code has been verified to reproduce the winning private LB score (0.79166) o
 
 All source code, model weights, and this methodology document are available at:
 
-**GitHub Repository:** [INSERT YOUR GITHUB REPO LINK HERE]
+**GitHub Repository:** https://github.com/Kush5699/beyond-visible-spectrum-crop-disease.git
 
 - `final_notebook.py` — Complete Kaggle notebook (single-file)
 - `methodology.md` — This write-up
