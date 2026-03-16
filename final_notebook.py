@@ -106,14 +106,6 @@ test_paths, test_ids = collect_test_samples()
 # ─── Cell 4: Dataset class ──────────────────────────────────────────────
 
 class SentinelCropDataset(Dataset):
-    """
-    Loads multi-band Sentinel-2 imagery for crop disease classification.
-
-    Each sample is either a folder of per-band .tif files (B1.tif, B2.tif, ...)
-    or a single multi-band .tif. We resize all bands to a common spatial
-    resolution and normalize using percentile clipping to handle outlier
-    reflectance values that are common in satellite data.
-    """
 
     def __init__(self, file_paths, labels=None, img_size=IMG_SIZE, augment=False):
         self.file_paths = file_paths
@@ -125,7 +117,6 @@ class SentinelCropDataset(Dataset):
         return len(self.file_paths)
 
     def _read_bands(self, path):
-        """Read up to 12 spectral bands from disk."""
         bands = []
 
         if os.path.isdir(path):
@@ -213,14 +204,6 @@ print("looks good!\n")
 # ─── Cell 5: Model definition ───────────────────────────────────────────
 
 class DiseaseClassifier(nn.Module):
-    """
-    ImageNet-pretrained backbone repurposed for multi-spectral satellite input.
-
-    The trick is using timm's `in_chans` argument — it automatically adapts
-    the first convolutional layer from 3 channels (RGB) to whatever we need
-    (12 Sentinel-2 bands in our case). Works across all architectures.
-    """
-
     def __init__(self, backbone_name="swin_tiny_patch4_window7_224",
                  num_classes=4, pretrained=True):
         super().__init__()
