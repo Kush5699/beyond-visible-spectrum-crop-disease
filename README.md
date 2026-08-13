@@ -1,4 +1,4 @@
-# Beyond Visible Spectrum: AI for Agriculture 2026 — Task 2
+# Beyond Visible Spectrum: AI for Agriculture 2026 - Task 2
 
 **5th Place Solution** for the ICPR 2026 "Beyond Visible Spectrum: AI for Agriculture" competition.
 
