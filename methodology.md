@@ -2,7 +2,7 @@
 
 **Author:** Kush Patel  
 **Kaggle Username:** @kushp3690  
-**Final Ranking:** 5th Place  
+**Final Ranking:** 3rd Place  
 **Private LB:** 0.79166 | **Public LB:** 0.81250
 
 ---
