@@ -1,6 +1,6 @@
 # Beyond Visible Spectrum: AI for Agriculture 2026 - Task 2
 
-**5th Place Solution** for the ICPR 2026 "Beyond Visible Spectrum: AI for Agriculture" competition.
+**3rd Place Solution** for the ICPR 2026 "Beyond Visible Spectrum: AI for Agriculture" competition.
 
 **Author:** Kush Ashvinbhai Patel (@kushp3690)  
 **Private LB:** 0.79166 | **Public LB:** 0.81250
