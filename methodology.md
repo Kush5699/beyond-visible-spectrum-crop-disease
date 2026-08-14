@@ -1,4 +1,4 @@
-# Solution Write-Up: Beyond Visible Spectrum — AI for Agriculture 2026 (Task 2)
+# Solution Write-Up: Beyond Visible Spectrum - AI for Agriculture 2026 (Task 2)
 
 **Author:** Kush Patel  
 **Kaggle Username:** @kushp3690  
